@@ -1,0 +1,31 @@
+# Ignore Python virtual environment files
+venv/
+env/
+
+# Ignore Django generated files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore database files
+db.sqlite3
+
+# Ignore media and static files
+media/
+static/
+
+# Ignore log files
+*.log
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
