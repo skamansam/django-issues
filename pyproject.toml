@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "drf-spectacular-errors"
+version = "0.1.0"
+description = ""
+authors = ["Samuel C. Tyler <skamansam@gmail.com>"]
+readme = "README.md"
+packages = [{include = "drf_spectacular_errors"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.7"
+djangorestframework = "^3.14.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
