@@ -17,7 +17,7 @@ manage  = { cmd = "python manage.py", help = "run a manage command"}
 
 [tool.poetry.dependencies]
 python = "^3.11"
-Django = "^4.2.7"
+Django = "^4.2.10"
 djangorestframework = "^3.14.0"
 poethepoet = "^0.24.4"
 
